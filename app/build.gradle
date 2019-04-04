@@ -15,7 +15,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.qrcodegenerator"
-        minSdkVersion 15
+        minSdkVersion 18
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -47,7 +47,6 @@ dependencies {
 
     implementation "org.jetbrains.anko:anko-constraint-layout:0.10.8"
 
-
     // Coroutine listeners for Anko Layouts
     implementation "org.jetbrains.anko:anko-sdk25-coroutines:0.10.8"
     implementation "org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8"
@@ -57,6 +56,9 @@ dependencies {
     implementation "org.jetbrains.anko:anko-sdk25:0.10.8"
 
     implementation "org.jetbrains.anko:anko-design:0.10.8"
+
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+
 
 
 }

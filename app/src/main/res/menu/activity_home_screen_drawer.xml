@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+                android:id="@+id/url"
+                android:icon="@mipmap/global"
+                android:title="@string/url"/>
+
+        <item
+                android:id="@+id/contact"
+                android:icon="@mipmap/phonebook"
+                android:title="@string/vcard"/>
+        <item
+                android:id="@+id/text"
+                android:icon="@mipmap/textfile"
+                android:title="@string/text"/>
+        <item
+                android:id="@+id/email"
+                android:icon="@mipmap/email"
+                android:title="@string/email"/>
+
+        <item
+            android:id="@+id/sms"
+            android:icon="@mipmap/sms"
+            android:title="@string/sms"/>
+
+        <item
+                android:id="@+id/facebook"
+                android:icon="@mipmap/fb"
+                android:title="@string/facebook"/>
+
+
+        <item
+                android:id="@+id/pdficon"
+                android:icon="@mipmap/pdf"
+                android:title="@string/pdf"/>
+
+
+        <item
+                android:id="@+id/music"
+                android:icon="@mipmap/musicfile"
+                android:title="@string/musicfile"/>
+
+
+        <item
+                android:id="@+id/appstore"
+                android:icon="@mipmap/store"
+                android:title="@string/appstore"/>
+
+
+    </group>
+
+
+
+</menu>

@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">QRCodeGenerator</string>
+    <string name="qrcodescanner">QR Scanner</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="url">Url</string>
+    <string name="vcard">VCard</string>
+    <string name="text">Text</string>
+    <string name="email">Email</string>
+    <string name="sms">Sms</string>
+    <string name="facebook">Facebook</string>
+    <string name="pdf">PDF</string>
+    <string name="musicfile">Muisc</string>
+    <string name="appstore">App Store</string>
+    <string name="profile">Edit Profile</string>
 </resources>
