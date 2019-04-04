@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/createqr"
+            android:textSize="@dimen/_18sdp"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/_12sdp"
+            android:gravity="center"
+    />
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:text="@string/website"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_12sdp"
+            android:background="@drawable/rect_lightgraycurve_drawable"
+            android:hint="@string/http"
+            android:paddingStart="@dimen/_12sdp"
+            android:layout_height="@dimen/_44sdp"/>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_margin="@dimen/_12sdp"
+            android:layout_height="wrap_content">
+
+
+        <RadioGroup android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+    <!--
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_12sdp"
+                android:background="@color/white"
+
+        >
+
+
+        </LinearLayout>
+    -->
+
+
+</LinearLayout>
